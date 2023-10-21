@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style/contacto.css">
+    <!-- CSS General -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>El León y la Princesa</h1>
+
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="misiones.html">Misiones</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a class="active" href="contacto.html">contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <form>
+            <label for="name">Nombre: </label>
+            <input type="text" name="name" id="name" required placeholder="Tu nombre" minlength="3">
+
+            <label for="mail">Email: </label>
+            <input type="email" name="mail" id="mail" required placeholder="Tu email">
+
+            <label for="pais">País: </label>
+            <select name="pais" id="pais">
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+                <option value="ecuador">Ecuador</option>
+                <option value="peru">Perú</option>
+                <option value="bolivia">Bolivia</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="colombia">Colombia</option>
+                <option value="españa">España</option>
+                <option value="venexuela">Venezuela</option>
+                <option value="paraguay">Paraguay</option>
+            </select>
+
+            <label for="comentario">Comentario: </label>
+            <textarea name="comentario" id="comentario" placeholder="Escribe Tu Comentario Aquí"></textarea>
+
+            <input type="submit" value="enviar">
+
+        </form>
+    </div>
+
+    <footer>
+        <p>Todos los derechos reservados &copy;</p>
+    </footer>
+
+</body>
+
+
+
+</html>
